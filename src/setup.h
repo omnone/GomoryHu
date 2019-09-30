@@ -1,7 +1,7 @@
-// Teliki Ergasia- Texnologies Ylopoihshs Algorithmwn
 // All pairs minimum cut
 // Bourantas Konstantinos 6145
 // bourantas@ceid.upatras.gr
+
 //In this program we try to solve all pairs min cut problem by using Gusfield's
 //algorithm for implementing a Gomory-Hu tree. We also use Edmond's-Karp algorithm to calculate
 //max-flow between two nodes.
@@ -27,7 +27,7 @@ int bfs(node_array<int> &color, node s, node t, node_array<edge> &pred, edge_arr
 //check if max flow is correct
 bool is_max_flow(int s, int t, node v[], int calculated_max_flow, edge_array<int> &capacity, const graph &G);
 //==================================================================================================================================
-//Implentation of Edmonds–Karp algorithm for finding min cut - max flow between two nodes
+//Implentation of Edmondsâ€“Karp algorithm for finding min cut - max flow between two nodes
 int find_max_flow(node_array<int> &color, int index_s, int index_t, node v[], edge_array<edge> &rev_edge, edge_array<int> &capacity, const graph &G);
 //==================================================================================================================================
 //find the min-cut between a pair of nodes
