@@ -2,8 +2,8 @@ LEDAROOT := /usr/local/LEDA
 BOOSTROOT := /usr/local/include/
 SRCDIR = src
 
-TARGET := ask3
-OBJS   := $(SRCDIR)/ask3.cpp
+TARGET := main
+OBJS   := $(SRCDIR)/main.cpp
 HEADERS := $(SRCDIR)/setup.cpp 
 
 CXX := g++ -w -g
@@ -17,7 +17,7 @@ all: run
 compile: $(OBJS)
 	$(CXX) $(CXXFLAGS) $(OBJS) $(HEADERS) $(LIBS) -o $(TARGET)
   
-run:  ask3
-	./ask3
+run:  main
+	./main
    
 clean: rm -rf $(TARGET) 
