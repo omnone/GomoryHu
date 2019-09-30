@@ -21,10 +21,6 @@
 #include <ctime>
 #include <fstream>
 
-#define BLACK 2
-#define WHITE 0
-#define GRAY 1
-
 #include "setup.h"
 
 using namespace leda;
