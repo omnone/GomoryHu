@@ -1,6 +1,5 @@
 // All pairs minimum cut
-// Bourantas Konstantinos 6145
-// bourantas@ceid.upatras.gr
+// Bourantas Konstantinos
 
 //In this program we try to solve all pairs min cut problem by using Gusfield's
 //algorithm for implementing a Gomory-Hu tree. We also use Edmond's-Karp algorithm to calculate
